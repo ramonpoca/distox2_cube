@@ -1,7 +1,7 @@
 # README #
 
 * OpenSCAD models for distox2 calibration device
-* Version 0.0.1
+* Version 0.0.2
 
 ### Contact ###
 
