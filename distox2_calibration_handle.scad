@@ -10,8 +10,8 @@ union() {
     cylinder(h=9, d1=6.2, d2=6.2, center=true, $fn=sn);
   }
   // handle shaft
-  translate([28, 17.5, -30]) cylinder(h=30, d1=14, d2=14, $fn=2*sn);
-  translate([28, 17.5, -66])
+  translate([28, 21.5, -30]) cylinder(h=30, d1=14, d2=14, $fn=2*sn);
+  translate([28, 21.5, -66])
   union() {
     cylinder(h=36, d1=8, d2=8, $fn=sn);
     sphere(r=4, $fn=sn);
