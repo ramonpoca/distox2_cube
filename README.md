@@ -55,7 +55,7 @@ which provides sample usage of polyhedron data and the way how to convert it int
 * Russian
 
 1. [Speleoukraine forum](http://www.speleoukraine.org/forum/viewtopic.php?f=19&t=267&sid=d517e04313eabdb7c628c214259eedf8#p4050).
-2. [Soumgan forum] (http://www.soumgan.com/phpBB2/viewtopic.php?f=24&t=798)
+2. [Soumgan forum](http://www.soumgan.com/phpBB2/viewtopic.php?f=24&t=798).
 
 ### Contact ###
 
