@@ -10,7 +10,7 @@ Calibration device consists of 2 things: calibration solid with direction holes,
 
 Currently there are 2 OpenSCAD models of solid: cube and truncated cuboctahedron. 
 
-Cube corresponds to calibration directions used in distox2 manual.
+Cube corresponds to calibration directions used in [distox2 calibration manual](http://paperless.bheeb.ch/download/DistoX2_CalibrationManual.pdf).
 
 Truncated cuboctahedron provides additional 12 calibration directions, saving 'original' cube ones.
 
