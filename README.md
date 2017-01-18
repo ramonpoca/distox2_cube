@@ -27,7 +27,7 @@ Handle design is compatible with leica disto X310 (E7400x US version of the X310
 To model your own calibration shape solid you can use Wolfram Mathematica notebook DistoX_Cube_shape_variants.nb,
 which provides sample usage of polyhedron data and the way how to convert it into OpenSCAD format. You need Wolfram Mathematica to open such file.
 
-After printing hole and shaft surfaces need to be finished to desired level of friction. Usualy enought to freely rotate, but not falling down being inserted into hole.
+After printing hole and shaft surfaces need to be finished to desired level of friction. Usualy enough to freely rotate, but not falling down being inserted into hole.
 
 ## Pictures, Videos ##
 
