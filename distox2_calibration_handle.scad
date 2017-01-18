@@ -1,3 +1,5 @@
+/// DistoX2 calibration handle by Mykyta Kozlov
+
 sn=100; // subdivision for cylinders
 union() {
   difference() {
