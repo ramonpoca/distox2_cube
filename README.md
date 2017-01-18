@@ -14,11 +14,11 @@ Cube corresponds to calibration directions used in distox2 manual.
 
 Truncated cuboctahedron provides additional 12 calibration directions, saving 'original' cube ones.
 
-## HOWTO produce STL files for 3D print ##
+## HOWTO produce STL files for 3D printing ##
 
-1) Open .scad files in latest [OpenSCAD](http://www.openscad.org/).
-2) Render (press F6).
-3) Export to STL via menu item: File -> Export -> Export as STL.
+1. Open .scad files in latest [OpenSCAD](http://www.openscad.org/).
+2. Render (press F6).
+3. Export to STL via menu item: File -> Export -> Export as STL.
 
 ## Notes ##
 
@@ -49,7 +49,13 @@ which provides sample usage of polyhedron data and the way how to convert it int
 
 * English
 
+1. [Reddit's /r/caving](https://www.reddit.com/r/caving/comments/56mu1l/distox2_calibration_device/).
+2. [Cavers of Facebook](https://www.facebook.com/groups/2205123638/permalink/10153870390228639/).
+
 * Russian
+
+1. [Speleoukraine forum](http://www.speleoukraine.org/forum/viewtopic.php?f=19&t=267&sid=d517e04313eabdb7c628c214259eedf8#p4050).
+2. [Soumgan forum] (http://www.soumgan.com/phpBB2/viewtopic.php?f=24&t=798)
 
 ### Contact ###
 
