@@ -1,6 +1,6 @@
 /// DistoX2 calibration cube by Mykyta Kozlov
 
-hf = 100; // subdivision hole quadrics
+hf = 48; // subdivision hole quadrics
 rf = 1000; // subdivision for round edges
 da = 54.735610317245346; // angle of main cube diagonal
 intersection() {
