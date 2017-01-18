@@ -1,0 +1,337 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14538,        329]
+NotebookOptionsPosition[     13799,        299]
+NotebookOutlinePosition[     14147,        314]
+CellTagsIndexPosition[     14104,        311]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"PolyhedronData", "[", "\"\<TruncatedCuboctahedron\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6933801833996863`*^9, 3.6933801833996863`*^9}, {
+   3.6933802141651735`*^9, 3.6933802271005783`*^9}, 3.693382075409075*^9, {
+   3.693382115316328*^9, 3.6933821229246244`*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[
+  GraphicsComplex3DBox[
+   NCache[{{Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+      Rational[-1, 2] - 2^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[1, 2]}, {
+     Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2] - 2^
+      Rational[1, 2]}, {
+     Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+      2^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[-1, 2], Rational[-1, 2] - 2^
+      Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[-1, 2], Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2] - 2^
+      Rational[1, 2]}, {
+     Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[1, 2]}, {
+     Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2] - 2^
+      Rational[1, 2]}, {
+     Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+      2^Rational[1, 2]}, {
+     Rational[1, 2], Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[1, 2], Rational[-1, 2] - 2^
+      Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[1, 2], Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[1, 2], Rational[1, 2] + 
+      2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], Rational[-1, 2] - 2^
+      Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], Rational[-1, 2] - 2^
+      Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2], Rational[1, 2] + 
+      2^Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2] - 2^Rational[1, 2], 
+      Rational[-1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[-1, 2] - 2^Rational[1, 2], 
+      Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 2^Rational[1, 2], 
+      Rational[-1, 2]}, {
+     Rational[1, 2] + 2^Rational[-1, 2], Rational[1, 2] + 2^Rational[1, 2], 
+      Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2], 
+      Rational[-1, 2] - 2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2], 
+      Rational[-1, 2] - 2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[1, 2], Rational[1, 2] + 
+      2^Rational[1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[-1, 2] - 2^
+      Rational[1, 2], Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[-1, 2] - 2^Rational[1, 2], Rational[
+      1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), Rational[1, 2] + 
+      2^Rational[1, 2], Rational[-1, 2]}, {(2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2]}, {
+     Rational[-1, 2] - 2^Rational[1, 2], Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[-1, 2] - 2^Rational[1, 2], 
+      Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[-1, 2] - 2^Rational[1, 2], Rational[
+      1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+      Rational[-1, 2]}, {
+     Rational[-1, 2] - 2^Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+      Rational[1, 2]}, {
+     Rational[-1, 2] - 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[-1, 2]}, {
+     Rational[-1, 2] - 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[1, 2], Rational[-1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[1, 2] + 2^Rational[1, 2], 
+      Rational[-1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2], Rational[1, 2] + 
+      2^Rational[-1, 2]}, {
+     Rational[1, 2] + 2^Rational[1, 2], Rational[
+      1, 2], (2 - 2 2^Rational[1, 2])^(-1)}, {
+     Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+      Rational[-1, 2]}, {
+     Rational[1, 2] + 2^Rational[1, 2], Rational[1, 2] + 2^Rational[-1, 2], 
+      Rational[1, 2]}, {
+     Rational[1, 2] + 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[-1, 2]}, {
+     Rational[1, 2] + 2^Rational[1, 2], (2 - 2 2^Rational[1, 2])^(-1), 
+      Rational[1, 2]}}, CompressedData["
+1:eJxTTMoPSmViYGAwAGJmBhh4sP/ZXHtj/4DP9met69PmLfi3H4e4PUz8KUR8
+P7p6NHG4epg6mHno4jB9aOL2ONTbo6m3x+F+dHGYOfY43I8uDlePw/32ONxv
+j8P99ujuxxUeuPyNy35c9hAZr4TCC1c6QI8HgvGJI5xwhh+R6YxQ/OFKl8SG
+C077cIUjunoi4xlXeOAKV2LjCaf/icwfOPMhofRNKP4BMZzkRg==
+    "]], Polygon3DBox[{{44, 42, 17, 19}, {14, 6, 3, 11}, {34, 36, 27, 25}, {8,
+      16, 9, 1}, {20, 18, 41, 43}, {12, 4, 5, 13}, {26, 28, 35, 33}, {2, 10, 
+     15, 7}, {45, 23, 24, 46}, {39, 29, 30, 40}, {48, 22, 21, 47}, {38, 32, 
+     31, 37}, {9, 19, 17, 11, 3, 25, 27, 1}, {2, 28, 26, 4, 12, 18, 20, 10}, {
+     41, 48, 47, 42, 44, 45, 46, 43}, {35, 38, 37, 36, 34, 39, 40, 33}, {15, 
+     24, 23, 16, 8, 31, 32, 7}, {5, 30, 29, 6, 14, 21, 22, 13}, {46, 24, 15, 
+     10, 20, 43}, {35, 28, 2, 7, 32, 38}, {41, 18, 12, 13, 22, 48}, {40, 30, 
+     5, 4, 26, 33}, {44, 19, 9, 16, 23, 45}, {37, 31, 8, 1, 27, 36}, {47, 21, 
+     14, 11, 17, 42}, {34, 25, 3, 6, 29, 39}}]],
+  ImageSize->{399.3960738947742, 400.8869443662636},
+  ViewPoint->{-1.2255150865317674`, -2.782803943588566, 1.484626210273467},
+  ViewVertical->{-0.17100281602547618`, -0.12178057529873232`, 
+   0.9777154639215169}]], "Output",
+ CellChangeTimes->{{3.6933802226843433`*^9, 3.693380228222594*^9}, 
+   3.693382076383992*^9, {3.6933821190419188`*^9, 3.693382123522215*^9}, {
+   3.693724314254632*^9, 3.693724343518696*^9}, 3.693724791540351*^9}]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"TruncatedCuboctahedronPts", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{
+       "\"\<TruncatedCuboctahedron\>\"", ",", "\"\<VertexCoordinates\>\""}], 
+       "]"}], "//", "RootReduce"}], "//", 
+     RowBox[{
+      RowBox[{"Times", "[", 
+       RowBox[{"#", ",", "2"}], "]"}], "&"}]}], "//", "InputForm"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"TruncatedCuboctahedronFaces", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"PolyhedronData", "[", 
+      RowBox[{"\"\<TruncatedCuboctahedron\>\"", ",", "\"\<FaceIndices\>\""}], 
+      "]"}], "//", 
+     RowBox[{
+      RowBox[{"#", "-", "1"}], "&"}]}], "//", "InputForm"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.693720336596475*^9, 3.6937203408135195`*^9}, {
+  3.693720427004177*^9, 3.693720434037922*^9}, {3.6937205955077724`*^9, 
+  3.6937206050439177`*^9}, {3.693720734652214*^9, 3.693720739766117*^9}, {
+  3.693720818236388*^9, 3.6937208239878864`*^9}, {3.693722310244216*^9, 
+  3.6937223437873836`*^9}, {3.693722432220191*^9, 3.6937224336135273`*^9}, {
+  3.693722467996501*^9, 3.6937225231023483`*^9}, {3.6937229557802887`*^9, 
+  3.6937229641723366`*^9}, {3.6937230088361692`*^9, 3.693723061348529*^9}, {
+  3.693723346660145*^9, 3.693723352603845*^9}, {3.693724290860196*^9, 
+  3.6937243071958623`*^9}, {3.6937243379964*^9, 3.6937243395478883`*^9}, {
+  3.693724786092127*^9, 3.693724787156147*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ToOpenSCADExpr", ":=", 
+   RowBox[{
+    RowBox[{"StringReplace", "[", 
+     RowBox[{
+      RowBox[{"ToString", "[", "#", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\"\<Sqrt[\>\"", "\[Rule]", "\"\<sqrt(\>\""}], ",", 
+        RowBox[{"\"\<]\>\"", "\[Rule]", "\"\<)\>\""}], ",", 
+        RowBox[{"\"\<{\>\"", "\[Rule]", "\"\<[\>\""}], ",", 
+        RowBox[{"\"\<}\>\"", "\[Rule]", "\"\<]\>\""}]}], "}"}]}], "]"}], 
+    "&"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ToOpenSCADExpr", "[", "TruncatedCuboctahedronPts", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"ToOpenSCADExpr", "[", "TruncatedCuboctahedronFaces", 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.6937232563965816`*^9, 3.693723337933776*^9}}],
+
+Cell[BoxData["\<\"[[-1, 1 + sqrt(2), -1 - 2*sqrt(2)], [-1, 1 + sqrt(2), 1 + \
+2*sqrt(2)], [-1, -1 - sqrt(2), -1 - 2*sqrt(2)], [-1, -1 - sqrt(2), 1 + \
+2*sqrt(2)], [-1, -1 - 2*sqrt(2), 1 + sqrt(2)], [-1, -1 - 2*sqrt(2), -1 - \
+sqrt(2)], [-1, 1 + 2*sqrt(2), 1 + sqrt(2)], [-1, 1 + 2*sqrt(2), -1 - \
+sqrt(2)], [1, 1 + sqrt(2), -1 - 2*sqrt(2)], [1, 1 + sqrt(2), 1 + 2*sqrt(2)], \
+[1, -1 - sqrt(2), -1 - 2*sqrt(2)], [1, -1 - sqrt(2), 1 + 2*sqrt(2)], [1, -1 - \
+2*sqrt(2), 1 + sqrt(2)], [1, -1 - 2*sqrt(2), -1 - sqrt(2)], [1, 1 + \
+2*sqrt(2), 1 + sqrt(2)], [1, 1 + 2*sqrt(2), -1 - sqrt(2)], [1 + sqrt(2), -1, \
+-1 - 2*sqrt(2)], [1 + sqrt(2), -1, 1 + 2*sqrt(2)], [1 + sqrt(2), 1, -1 - \
+2*sqrt(2)], [1 + sqrt(2), 1, 1 + 2*sqrt(2)], [1 + sqrt(2), -1 - 2*sqrt(2), \
+-1], [1 + sqrt(2), -1 - 2*sqrt(2), 1], [1 + sqrt(2), 1 + 2*sqrt(2), -1], [1 + \
+sqrt(2), 1 + 2*sqrt(2), 1], [-1 - sqrt(2), -1, -1 - 2*sqrt(2)], [-1 - \
+sqrt(2), -1, 1 + 2*sqrt(2)], [-1 - sqrt(2), 1, -1 - 2*sqrt(2)], [-1 - \
+sqrt(2), 1, 1 + 2*sqrt(2)], [-1 - sqrt(2), -1 - 2*sqrt(2), -1], [-1 - \
+sqrt(2), -1 - 2*sqrt(2), 1], [-1 - sqrt(2), 1 + 2*sqrt(2), -1], [-1 - \
+sqrt(2), 1 + 2*sqrt(2), 1], [-1 - 2*sqrt(2), -1, 1 + sqrt(2)], [-1 - \
+2*sqrt(2), -1, -1 - sqrt(2)], [-1 - 2*sqrt(2), 1, 1 + sqrt(2)], [-1 - \
+2*sqrt(2), 1, -1 - sqrt(2)], [-1 - 2*sqrt(2), 1 + sqrt(2), -1], [-1 - \
+2*sqrt(2), 1 + sqrt(2), 1], [-1 - 2*sqrt(2), -1 - sqrt(2), -1], [-1 - \
+2*sqrt(2), -1 - sqrt(2), 1], [1 + 2*sqrt(2), -1, 1 + sqrt(2)], [1 + \
+2*sqrt(2), -1, -1 - sqrt(2)], [1 + 2*sqrt(2), 1, 1 + sqrt(2)], [1 + \
+2*sqrt(2), 1, -1 - sqrt(2)], [1 + 2*sqrt(2), 1 + sqrt(2), -1], [1 + \
+2*sqrt(2), 1 + sqrt(2), 1], [1 + 2*sqrt(2), -1 - sqrt(2), -1], [1 + \
+2*sqrt(2), -1 - sqrt(2), 1]]\"\>"], "Output",
+ CellChangeTimes->{{3.6937233089619923`*^9, 3.693723357570608*^9}, {
+   3.6937243144207916`*^9, 3.6937243436608324`*^9}, 3.693724791660466*^9}],
+
+Cell[BoxData["\<\"[[43, 41, 16, 18], [13, 5, 2, 10], [33, 35, 26, 24], [7, \
+15, 8, 0], [19, 17, 40, 42], [11, 3, 4, 12], [25, 27, 34, 32], [1, 9, 14, 6], \
+[44, 22, 23, 45], [38, 28, 29, 39], [47, 21, 20, 46], [37, 31, 30, 36], [8, \
+18, 16, 10, 2, 24, 26, 0], [1, 27, 25, 3, 11, 17, 19, 9], [40, 47, 46, 41, \
+43, 44, 45, 42], [34, 37, 36, 35, 33, 38, 39, 32], [14, 23, 22, 15, 7, 30, \
+31, 6], [4, 29, 28, 5, 13, 20, 21, 12], [45, 23, 14, 9, 19, 42], [34, 27, 1, \
+6, 31, 37], [40, 17, 11, 12, 21, 47], [39, 29, 4, 3, 25, 32], [43, 18, 8, 15, \
+22, 44], [36, 30, 7, 0, 26, 35], [46, 20, 13, 10, 16, 41], [33, 24, 2, 5, 28, \
+38]]\"\>"], "Output",
+ CellChangeTimes->{{3.6937233089619923`*^9, 3.693723357570608*^9}, {
+   3.6937243144207916`*^9, 3.6937243436608324`*^9}, 3.6937247916634693`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"PolyhedronData", "[", 
+       RowBox[{
+       "\"\<TruncatedCuboctahedron\>\"", ",", "\"\<VertexCoordinates\>\""}], 
+       "]"}], "//", 
+      RowBox[{
+       RowBox[{"Times", "[", 
+        RowBox[{"#", ",", "2"}], "]"}], "&"}]}], "//", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Min", "[", "#", "]"}], ",", 
+        RowBox[{"Max", "[", "#", "]"}]}], "}"}], "&"}]}], "//", 
+    "RootReduce"}], "//", "InputForm"}], "//", 
+  RowBox[{
+   RowBox[{"ToOpenSCADExpr", "[", "#", "]"}], "&"}]}]], "Input",
+ CellChangeTimes->{{3.6937237957318077`*^9, 3.6937237975655656`*^9}, {
+  3.6937238279642763`*^9, 3.6937239247070527`*^9}, {3.6937242038037252`*^9, 
+  3.693724206397196*^9}}],
+
+Cell[BoxData["\<\"[-1 - 2*sqrt(2), 1 + 2*sqrt(2)]\"\>"], "Output",
+ CellChangeTimes->{
+  3.69372420688166*^9, {3.6937243144358063`*^9, 3.693724343673845*^9}, 
+   3.6937247916734796`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", "Scale", " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"55", "/", 
+      RowBox[{"(", 
+       RowBox[{"2", "+", 
+        RowBox[{"4", 
+         RowBox[{"Sqrt", "[", "2", "]"}]}]}], ")"}]}], "//", "RootReduce"}], "//",
+     "InputForm"}], "//", 
+   RowBox[{
+    RowBox[{"ToOpenSCADExpr", "[", "#", "]"}], "&"}]}]}]], "Input",
+ CellChangeTimes->{{3.693724359308839*^9, 3.693724388340681*^9}, {
+  3.6937248167315097`*^9, 3.6937248242517223`*^9}}],
+
+Cell[BoxData["\<\"(-55 + 110*sqrt(2))/14\"\>"], "Output",
+ CellChangeTimes->{{3.693724372322319*^9, 3.693724389154461*^9}, 
+   3.6937247916985025`*^9}]
+}, Open  ]]
+},
+WindowSize->{969, 823},
+WindowMargins->{{Automatic, 453}, {Automatic, 55}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 297, 5, 30, "Input"],
+Cell[880, 29, 6229, 113, 416, "Output"]
+}, Open  ]],
+Cell[7124, 145, 1460, 33, 69, "Input"],
+Cell[CellGroupData[{
+Cell[8609, 182, 761, 18, 69, "Input"],
+Cell[9373, 202, 1881, 25, 316, "Output"],
+Cell[11257, 229, 795, 10, 126, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12089, 244, 786, 23, 50, "Input"],
+Cell[12878, 269, 186, 3, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13101, 277, 528, 15, 50, "Input"],
+Cell[13632, 294, 151, 2, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
