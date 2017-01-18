@@ -18,4 +18,10 @@ union() {
     cylinder(h=36, d1=8, d2=8, $fn=sn);
     sphere(r=4, $fn=sn);
   }
+  // champher between U-shape and shaft
+  translate([28, 21.5, 0])
+  {
+    rotate_extrude(angle = 360, convexity = 10, $fn = 2*sn)
+    translate([7,0,0]) polygon([[0,0],[0,-4],[4,0]]);
+  }
 }
