@@ -8,11 +8,16 @@ Version 0.0.4
 
 Calibration device consists of 2 things: calibration solid with direction holes, distox2 mounting handle.
 
-Currently there are 2 OpenSCAD models of solid: cube and truncated cuboctahedron. 
+Currently there are 2 OpenSCAD models of solid: cube and truncated cuboctahedron.
 
 Cube corresponds to calibration directions used in [distox2 calibration manual](http://paperless.bheeb.ch/download/DistoX2_CalibrationManual.pdf).
 
 Truncated cuboctahedron provides additional 12 calibration directions, saving 'original' cube ones.
+
+Also provided 2 models of handle: 
+
+1. To be printed from plastic and ready to use
+2. More robust handle to use aluminiun pipe or shaft as main rotating unit. Aluminium part needs to be glued into plastic printed part.
 
 ## HOWTO produce STL files for 3D printing ##
 
@@ -41,7 +46,11 @@ After printing hole and shaft surfaces need to be finished to desired level of f
 
 * Handle
 
-![alt text](http://i.piccy.info/i9/b2a5eee3955f9b9c73d18c5cc8d29773/1484739741/11081/1052775/Handle_500.jpg "Handle")
+![alt text](http://i.piccy.info/i9/5f5997eb21dba8b4e36045270226b0bd/1484754900/10059/1052775/Handle_500.jpg "Handle")
+
+* Handle version 2
+
+![alt text](http://i.piccy.info/i9/b7e9854a336f0174b7e2c758d9879df0/1484754954/10302/1052775/Handle_v2_500.jpg "Handle")
 
 * Sample usage video
 
