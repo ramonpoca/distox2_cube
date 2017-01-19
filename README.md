@@ -58,6 +58,10 @@ Here goes an implementation example of mounting device to fix cube on tripod. De
 
 ![alt text](http://i.piccy.info/i9/bd2168976a896241d4ee4d4666c34cd8/1484816680/19293/1052775/DSC_5809_500.jpg "Side view")
 
+* Alltogether
+
+![alt text](http://i.piccy.info/i9/d0aa3bc6910b3335682c1009458f81ee/1468839812/50872/1052775/dx1_800.jpg "Alltogether")
+
 As it can be seen from photos above - cube is mounted to square O-shape rod by two non-magnetic screws.
 
 There are space of 5 mm width left between rod surface and cube face - to allow free handle rotation, while doing calibration measurements along the rod.
