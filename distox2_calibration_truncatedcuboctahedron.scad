@@ -7,30 +7,77 @@ hf = 48; // subdivision hole quadrics
 da = 54.735610317245346; // angle of main cube diagonal in degrees
 scale55mm = (110*sqrt(2) - 55)/14; // scale factor to be 55 mm in size
 
+module hole() {
+  cylinder(90, 4, 4, true, $fn=hf); 
+}
+
+module key() {
+  union() {
+    linear_extrude(height = 3, center = false, convexity = 10, twist = 0)
+    union() {
+      square(8.1,true);
+      rotate([0,0,45]) square(8.1,true);
+    }
+  }
+}
+
+module mainkeypair() {
+  translate([0,0,24.6])  key(); 
+  translate([0,0,-27.6]) key();
+}
+
+module biggestdiagonalkeypair() {
+  translate([0,0,27.1])  key(); 
+  translate([0,0,-30.1]) key(); 
+}
+
+module diagonalkeypair() {
+  translate([0,0,28.8]) key(); 
+  translate([0,0,-31.8]) key();
+}
+
 difference() {
   /// main polyhedron, scaled to be 55 mm size
   scale(scale55mm) polyhedron (polyhedronPts, polyhedronFaces); 
   
   /// main holes
-  cylinder(55, 4, 4, true, $fn=hf);
-  rotate ([90,0,0]) cylinder (55, 4, 4, true, $fn=hf);
-  rotate ([0,90,0]) cylinder (55, 4, 4, true, $fn=hf);
+  hole();
+  rotate ([90,0,0]) hole();
+  rotate ([0,90,0]) hole();
   
   /// diagonal holes
-  rotate ([0, da, 45]) cylinder (90, 4, 4, true, $fn=hf);
-  rotate ([0, da, 135]) cylinder (90, 4, 4, true, $fn=hf);
-  rotate ([0, da, -45]) cylinder (90, 4, 4, true, $fn=hf);
-  rotate ([0, da, -135]) cylinder (90, 4, 4, true, $fn=hf);
+  rotate ([0, da, 45]) hole();
+  rotate ([0, da, 135]) hole();
+  rotate ([0, da, -45]) hole();
+  rotate ([0, da, -135]) hole();
     
   /// additional to standard cube direction holes
   
   // horisontal
-  rotate ([90,0,45]) cylinder (70, 4, 4, true, $fn=hf);
-  rotate ([90,0,-45]) cylinder (70, 4, 4, true, $fn=hf);
+  rotate ([90,0,45]) hole();
+  rotate ([90,0,-45]) hole();
   
   // diagonal
-  rotate ([0,45,0]) cylinder (70, 4, 4, true, $fn=hf);
-  rotate ([0,-45,0]) cylinder (70, 4, 4, true, $fn=hf);
-  rotate ([45,0,0]) cylinder (70, 4, 4, true, $fn=hf);
-  rotate ([-45,0,0]) cylinder (70, 4, 4, true, $fn=hf);
+  rotate ([0,45,0]) hole();
+  rotate ([0,-45,0]) hole();
+  rotate ([45,0,0]) hole();
+  rotate ([-45,0,0]) hole();
+  
+  /// keys on faces
+  
+  mainkeypair();
+  rotate([90,0,0]) mainkeypair();
+  rotate([0,90,0]) mainkeypair();
+  
+  rotate ([90,0,45])  diagonalkeypair();
+  rotate ([90,0,-45]) diagonalkeypair();
+  rotate ([0,45,0])   diagonalkeypair();
+  rotate ([0,-45,0])  diagonalkeypair();
+  rotate ([45,0,0])   diagonalkeypair();
+  rotate ([-45,0,0])  diagonalkeypair();
+  
+  rotate ([0, da, 45])   biggestdiagonalkeypair();
+  rotate ([0, da, 135])  biggestdiagonalkeypair();
+  rotate ([0, da, -45])  biggestdiagonalkeypair();
+  rotate ([0, da, -135]) biggestdiagonalkeypair();
 }

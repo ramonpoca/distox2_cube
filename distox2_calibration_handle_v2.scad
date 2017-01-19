@@ -1,6 +1,12 @@
 /// DistoX2 calibration handle v.2. by Mykyta Kozlov
 
 sn=100; // subdivision for cylinders
+
+module key() {
+  linear_extrude(height = 3, center = false, convexity = 10, twist = 0)
+  square(8.05,true);
+}
+
 difference() {
   union() {
     difference() {
@@ -20,8 +26,10 @@ difference() {
       rotate_extrude(angle = 360, convexity = 10, $fn = 2*sn)
       translate([7,0,0]) polygon([[0,0],[0,-4],[4,0]]);
     }
+    // key to fix rotation step
+    translate([28, 21.5, -32.7]) key();
   }
   // Hole for 8mm main aluminium shaft
-  translate([28, 21.5, -30])
-  cylinder(h=36, d1=8, d2=8, $fn=sn);
+  translate([28, 21.5, -33])
+  cylinder(h=40, d1=8, d2=8, $fn=sn);
 }
