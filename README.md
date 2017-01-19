@@ -38,7 +38,7 @@ Handle v2 and Truncated cuboctahedron also has squared keys to optionally restri
 
 # Sample mount #
 
-Here goes an Vytis Vilkas implementation example of mounting device to fix cube on tripod.
+Here goes an implementation example of mounting device to fix cube on tripod. Design by Vytis Vilkas.
 
 * Bottom view
 
