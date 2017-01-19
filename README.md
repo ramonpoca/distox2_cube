@@ -55,7 +55,7 @@ Here goes an implementation example of mounting device to fix cube on tripod. De
 
 As it can be seen from photos above - cube is mounted to square O-shape rod by two non-magnetic screws.
 
-There are space left between rod surface and cube face - to allow free handle rotation, while doing calibration measurements along the rod.
+There are space of 5 mm width left between rod surface and cube face - to allow free handle rotation, while doing calibration measurements along the rod.
 
 Rod also has a bottom hole - for access while doing vertical calibration measurement with that hole.
 
