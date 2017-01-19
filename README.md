@@ -36,6 +36,32 @@ After printing hole and shaft surfaces need to be finished to desired level of f
 
 Handle v2 and Truncated cuboctahedron also has squared keys to optionally restrict rotation step around calibration axis by multiply of 45 degree.
 
+# Sample mount #
+
+Here goes an implementation example of mounting device to fix cube on tripod.
+
+* Bottom view
+
+![alt text](http://i.piccy.info/i9/8d9aa07ea423a69a90807d3d6a7e5134/1484816590/21865/1052775/DSC_5808_500.jpg "Bottom view")
+
+* Side view
+
+![alt text](http://i.piccy.info/i9/bd2168976a896241d4ee4d4666c34cd8/1484816680/19293/1052775/DSC_5809_500.jpg "Side view")
+
+As it can be seen from photos above - cube is mounted to square O-shape rod by two non-magnetic screws.
+
+There are space left between rod surface and cube face - to allow free handle rotation, while doing calibration measurements along the rod.
+
+Rod also has a bottom hole - for access while doing vertical calibration measurement with that hole.
+
+For mounting truncated cuboctahedron rod needs to have additional 45° degree hole to acces calibration hole in cube edge.
+
+Also solid aluminium handle is shown. If doing handle from plastic, especially handle v2 - you need to glue 8 mm nonmagnetic 
+rotation axis into 8 mm handle hole. For truncated cuboctahedron axis length needs to be 2 time more than in original design,
+again - to access hole in cube edge.
+
+Second hole in handle's U-shape used for mounting leica disto x310 to handle by 1/4" nonmagnetic screw (same as used to mounting photo camera to tripod).
+
 ## Pictures, Videos ##
 
 * Cube
