@@ -44,6 +44,7 @@ Also provided 2 models of handle:
 * Handle v. 2 extension
 
 ![alt text](http://i.piccy.info/i9/a642f0a7d5a2adc74a55dba421c41d44/1484819003/10097/1052775/Handle_v2_enlarger_500.jpg "Handle v2 extension")
+![alt text](http://i.piccy.info/i9/71b0727f6ec8a63f6e11e72c6d5ae070/1484819383/11600/1052775/Handle_v2_extension_500.jpg "Handle v2 extension bottom")
 
 # Sample mount #
 
