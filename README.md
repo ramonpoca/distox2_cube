@@ -15,7 +15,7 @@ Truncated cuboctahedron provides additional 12 calibration directions, saving 'o
 Also provided 2 models of handle: 
 
 1. To be printed from plastic and ready to use
-2. More robust handle to use aluminiun pipe or shaft as main rotating unit. Aluminium part needs to be glued into plastic printed part.
+2. More robust handle to use aluminiun pipe or shaft as main rotating unit. Aluminium part needs to be glued into plastic printed part. Optionally handle v.2 extension can be also used.
 
 # HOWTO produce STL files for 3D printing #
 
@@ -37,9 +37,13 @@ Also provided 2 models of handle:
 
 ![alt text](http://i.piccy.info/i9/5f5997eb21dba8b4e36045270226b0bd/1484754900/10059/1052775/Handle_500.jpg "Handle")
 
-* Handle version 2
+* Handle v. 2
 
-![alt text](http://i.piccy.info/i9/0955ce5fee551a8deef4297241d5c3cb/1484785378/10293/1052775/Handle_v2_500.jpg "Handle")
+![alt text](http://i.piccy.info/i9/0955ce5fee551a8deef4297241d5c3cb/1484785378/10293/1052775/Handle_v2_500.jpg "Handle v2")
+
+* Handle v. 2 extension
+
+![alt text](http://i.piccy.info/i9/a642f0a7d5a2adc74a55dba421c41d44/1484819003/10097/1052775/Handle_v2_enlarger_500.jpg "Handle v2 extension")
 
 # Sample mount #
 
@@ -63,7 +67,7 @@ For mounting truncated cuboctahedron rod needs to have additional 45 degree hole
 
 Also solid aluminium handle is shown. If doing handle from plastic, especially handle v2 - you need to glue 8 mm nonmagnetic 
 rotation axis into 8 mm handle hole. For truncated cuboctahedron axis length needs to be 2 time more than in original design,
-again - to access hole in cube edge.
+again - to access hole in cube edge. Additionally handle v2 extension can be used to access keyhole trough the rod.
 
 Second hole in handle's U-shape used for mounting leica disto x310 to handle by 1/4" nonmagnetic screw (same as used to mounting photo camera to tripod).
 
