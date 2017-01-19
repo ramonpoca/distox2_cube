@@ -34,6 +34,8 @@ which provides sample usage of polyhedron data and the way how to convert it int
 
 After printing hole and shaft surfaces need to be finished to desired level of friction. Usualy enough to freely rotate, but not falling down being inserted into hole.
 
+Handle v2 and Truncated cuboctahedron also has squared keys to optionally restrict rotation step around calibration axis by multiply of 45 degree.
+
 ## Pictures, Videos ##
 
 * Cube
@@ -42,7 +44,7 @@ After printing hole and shaft surfaces need to be finished to desired level of f
 
 * Truncated cuboctahedron
 
-![alt text](http://i.piccy.info/i9/828afb9a6a9418ddcedd640c004ece3a/1484738948/14279/1052775/TruncatedCuboctahedron_500.jpg "Truncated cuboctahedron")
+![alt text](http://i.piccy.info/i9/5cd8980e6cd57bdd1cd9eb29b2e7aec0/1484785447/15732/1052775/TruncatedCuboctahedron_500.jpg "Truncated cuboctahedron")
 
 * Handle
 
@@ -50,7 +52,7 @@ After printing hole and shaft surfaces need to be finished to desired level of f
 
 * Handle version 2
 
-![alt text](http://i.piccy.info/i9/b7e9854a336f0174b7e2c758d9879df0/1484754954/10302/1052775/Handle_v2_500.jpg "Handle")
+![alt text](http://i.piccy.info/i9/0955ce5fee551a8deef4297241d5c3cb/1484785378/10293/1052775/Handle_v2_500.jpg "Handle")
 
 * Sample usage video
 
