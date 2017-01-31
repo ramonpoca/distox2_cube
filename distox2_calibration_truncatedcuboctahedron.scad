@@ -38,8 +38,8 @@ module diagonalkeypair() {
 
 difference() {
   /// main polyhedron, scaled to be 55 mm size
-  scale(scale55mm) polyhedron (polyhedronPts, polyhedronFaces); 
-  
+  scale(scale55mm) polyhedron (polyhedronPts, polyhedronFaces);
+
   /// main holes
   hole();
   rotate ([90,0,0]) hole();
@@ -64,7 +64,7 @@ difference() {
   rotate ([-45,0,0]) hole();
   
   /// keys on faces
-  
+  /*
   mainkeypair();
   rotate([90,0,0]) mainkeypair();
   rotate([0,90,0]) mainkeypair();
@@ -80,4 +80,15 @@ difference() {
   rotate ([0, da, 135])  biggestdiagonalkeypair();
   rotate ([0, da, -45])  biggestdiagonalkeypair();
   rotate ([0, da, -135]) biggestdiagonalkeypair();
+  */
+  
+  // holes for mount
+  rotate([0,0,22.5])
+  {
+     translate([-15,0,3])
+     cylinder(28, d1=5, d2=5, true, $fn=hf);
+  
+     translate([15,0,3])
+     cylinder(28, d1=5, d2=5, true, $fn=hf);
+  }
 }
