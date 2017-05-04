@@ -2,15 +2,14 @@
 
 sn=100; // subdivision for cylinders
 
-module U_shape_mount_holes() {
-  translate([28, 21.5, 0])
-  rotate([0,0,180-15]) {
-    translate([14,0,0]) 
-      cylinder(h=6, d1=3.2, d2=3.2, $fn=sn);
-    rotate([0,0,120]) translate([14,0,0]) 
-      cylinder(h=6, d1=3.2, d2=3.2, $fn=sn);
-    rotate([0,0,-120]) translate([14,0,0])
-      cylinder(h=6, d1=3.2, d2=3.2, $fn=sn);
+module U_shape_mount_holes(coffset, rotation, holediam) {
+  rotate([0,0,rotation]) {
+    translate([coffset,0,0]) 
+      cylinder(h=6, d1=holediam, d2=holediam, $fn=sn);
+    rotate([0,0,120]) translate([coffset,0,0]) 
+      cylinder(h=6, d1=holediam, d2=holediam, $fn=sn);
+    rotate([0,0,-120]) translate([coffset,0,0])
+      cylinder(h=6, d1=holediam, d2=holediam, $fn=sn);
   }
 }
 
@@ -20,6 +19,7 @@ module U_shape() {
     rotate([90,0,90])
       linear_extrude(height = 46, center = false, convexity = 10, twist = 0)
       polygon([[0,0],[0,20],[4+16*tan(1),20],[4,4],[35,4],[35,12],[39,12],[39,0]]);
+    
     // hole for leica fix
     translate([23, 0, 13]) rotate([90, 0, 0]) 
       cylinder(h=9, d1=6.35, d2=6.35, center=true, $fn=sn); // For 1/4-20 UNC
@@ -27,7 +27,8 @@ module U_shape() {
     translate([28, 21.5, -1.5])
       cylinder(h=7, d1=8, d2=8, $fn=sn);
     
-    U_shape_mount_holes();
+    translate([28, 21.5, 0])
+    U_shape_mount_holes(14, 180-15, 3.2);
   }
 }
 
@@ -47,26 +48,18 @@ module mount_legs() {
   }
 }
 
-module mount_leg_holes() {
-  rotate([0,0,15]) {
-    translate([14,0,0]) 
-      cylinder(h=8, d1=4, d2=4, center=true, $fn=sn);
-    rotate([0,0,120]) translate([14,0,0])
-      cylinder(h=8, d1=4, d2=4, center=true, $fn=sn);
-    rotate([0,0,-120]) translate([14,0,0])
-      cylinder(h=8, d1=4, d2=4, center=true, $fn=sn);
-  }
-}
-
 module axis_RigidityRib() {
   difference() {
     union() {
       rotate_extrude(angle = 360, convexity = 10, $fn = 2*sn)
-      polygon([[4,0],[14,0],[7,7],[7,40],[4,40]]);
+      polygon([[4,0],[14,0],[7,7],[7,30],[4,30]]);
       
       mount_legs();
     }
-    mount_leg_holes();
+    U_shape_mount_holes(14, 15, 3.2);
+    
+    translate([0,0,13]) rotate([0,90,0])
+    cylinder(h=30, d1=2.5, d2=2.5, center=true, $fn=sn);
   }
 }
 
@@ -83,4 +76,5 @@ module handle_mount() {
 }
 
 handle_mount();
+color("RoyalBlue", 0.8)
 axis_RigidityRib();
