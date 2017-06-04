@@ -5,11 +5,11 @@ sn=100; // subdivision for cylinders
 module U_shape_mount_holes(coffset, rotation, holediam, holecentering) {
   rotate([0,0,rotation]) {
     translate([coffset,0,0]) 
-      cylinder(h=6, d1=holediam, d2=holediam, center=holecentering, $fn=sn);
+      cylinder(h=10, d1=holediam, d2=holediam, center=holecentering, $fn=sn);
     rotate([0,0,120]) translate([coffset,0,0]) 
-      cylinder(h=6, d1=holediam, d2=holediam, center=holecentering, $fn=sn);
+      cylinder(h=10, d1=holediam, d2=holediam, center=holecentering, $fn=sn);
     rotate([0,0,-120]) translate([coffset,0,0])
-      cylinder(h=6, d1=holediam, d2=holediam, center=holecentering, $fn=sn);
+      cylinder(h=10, d1=holediam, d2=holediam, center=holecentering, $fn=sn);
   }
 }
 
@@ -20,7 +20,7 @@ linear_extrude(height = extrudeh, center = true, convexity = 10, twist = 0)
     difference() {
       circle(d = 65.5, center=true, $fn=sn);
       
-      cutd = 98;  
+      cutd = 95;  
     
       translate([60,0,0])
         circle(d = cutd, center=true, $fn=sn);
@@ -42,31 +42,31 @@ module U_shape() {
         linear_extrude(height = 46, center = false, convexity = 10, twist = 0)
         polygon([[0,0],[0,20],[4+16*tan(1),20],[4,4],[35,4],[35,12],[39,12],[39,0]]);
     
-    //color("RoyalBlue", 0.5)
-    translate([28, 21.5, 2]) 
-      rotate([0,0,180]) {       
-        precession_centering_plate(4);
+    
+      translate([28, 21.5, 1])
+        rotate([0,0,180])
+          precession_centering_plate(6);
+            
+      translate([0, 0, -2])
+      cube([46, 39, 2],false);
         
-        translate([-30,0,2]) 
-        cylinder(h=2, d1=10.5, d2=9, $fn=sn);
-          
-        rotate([0,0,120]) translate([-30,0,2])
-        cylinder(h=2, d1=10.5, d2=9, $fn=sn);
-        
-        rotate([0,0,-120]) translate([-30,0,2])
-        cylinder(h=2, d1=10.5, d2=9, $fn=sn);
-      }
+      translate([1, 21.5, 1])
+      cylinder(h=6, d1=12, d2=12, center=true, $fn=sn);
     }
     
     // hole for leica fix
     translate([23, 0, 13]) rotate([90, 0, 0]) 
       cylinder(h=9, d1=6.35, d2=6.35, center=true, $fn=sn); // For 1/4-20 UNC
+    
     // main axis hole  
     translate([28, 21.5, -1.5])
-      cylinder(h=7, d1=8, d2=8, $fn=sn);
+      cylinder(h=12, d1=8, d2=8, center=true, $fn=sn);
     
     translate([28, 21.5, 0])
-      U_shape_mount_holes(30, 0, 5, false);
+      U_shape_mount_holes(30, 0, 5, true);
+    
+    translate([1, 21.5, 1])
+      cylinder(h=7, d1=5.2, d2=5.2, center=true, $fn=sn);
   }
 }
 
@@ -87,7 +87,7 @@ module axis_RigidityRib() {
     }
     U_shape_mount_holes(30, 180, 5, true);
     
-    cylinder(h=5, d1=8, d2=8, center=true, $fn=sn);
+    cylinder(h=8, d1=8, d2=8, center=true, $fn=sn);
     
     
     translate([0,0,16]) rotate([0,90,0])
@@ -107,6 +107,7 @@ module handle_mount() {
   }
 }
 
+translate([0,0,-2])
 handle_mount();
 color("RoyalBlue", 0.7)
 axis_RigidityRib();
