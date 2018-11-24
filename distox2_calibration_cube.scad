@@ -5,7 +5,7 @@ rf = 1000; // subdivision for round edges
 da = 54.735610317245346; // angle of main cube diagonal
 
 module hole() {
-  cylinder (90, 4, 4, true, $fn=hf);
+  cylinder (90, 4.05, 4.05, true, $fn=hf);
 };
 
 module edgeround() {
